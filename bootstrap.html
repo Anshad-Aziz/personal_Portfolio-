@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        header, footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Aspiring AI/ML Engineer | Web Developer</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="container text-center" id="about">
+        <h2 class="text-primary mt-4">About Me</h2>
+        <img src="LinkedIn.jpg" alt="Profile Picture" class="profile-img">
+        <p class="mt-3" style="font-style: italic;">Hello! I'm an AI/ML engineering student with a passion for developing intelligent applications and web technologies.</p>
+        <a href="4MT21AI009_ANSHAD_new.pdf" class="btn btn-custom" download>Download Resume</a>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container" id="projects">
+        <h2 class="text-success mt-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h5>AI-Powered Health Recommendations</h5>
+                <p>Built a chatbot to provide health and fitness recommendations based on symptoms.</p>
+                <a href="#" class="btn btn-sm btn-primary">View</a>
+            </div>
+            <div class="col-md-4">
+                <h5>Resume Screening App</h5>
+                <p>Developed an AI-driven tool to classify resumes based on job categories.</p>
+                <a href="#" class="btn btn-sm btn-primary">View</a>
+            </div>
+            <div class="col-md-4">
+                <h5>Tomato Ripeness Classification</h5>
+                <p>Implemented a CNN model to detect ripe and unripe tomatoes using ResNet18.</p>
+                <a href="#" class="btn btn-sm btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="container" id="skills">
+        <h2 class="text-warning mt-4">Skills</h2>
+        <h5>Technical Skills</h5>
+        <ul>
+            <li>Python, Flask, Streamlit</li>
+            <li>Machine Learning & Deep Learning</li>
+            <li>Web Development (HTML, CSS, Bootstrap, JavaScript)</li>
+        </ul>
+        <h5>Soft Skills</h5>
+        <ol>
+            <li>Problem-Solving</li>
+            <li>Teamwork & Collaboration</li>
+            <li>Time Management</li>
+        </ol>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container" id="contact">
+        <h2 class="text-danger mt-4">Contact Me</h2>
+        <p>Email: <a href="mailto:anshadaziz99@gmail.com">anshadaziz99@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anshad-aziz/" target="_blank">My LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Anshad-Aziz" target="_blank">My GitHub</a></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio | Designed with ❤️</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
